@@ -1,3 +1,7 @@
+*{
+    text-decoration: none;
+}
+
 body {
     width: 90%;
     margin: auto;
@@ -6,5 +10,13 @@ body {
     font-family: 'lato';
     line-height: 1.5;
   
-    }
-  
+}
+
+img{
+    max-width:10px;
+    max-height:1px;
+    width: auto;
+    height: auto;
+
+}
+

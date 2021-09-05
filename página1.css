@@ -1,20 +1,45 @@
-body {
-    width: 90%;
-    margin:0 auto;
-    background: url(cloud2.jpg);
-    
-    font-family: 'lato';
-    line-height: 1.5;
+*{
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+
+#cabecalho_escolhas {
+  background-color: rgba(20, 20, 107, 0.939);
+  font-family:  'Source Sans Pro', sans-serif;
+  padding: 5px 500px;
+  width: 100%;
+  height: 500px; 
+
+}
+
+a{
+  color: rgb(255, 255, 255);
+}
+
+.logo{
+  max-width: 100px;
+  max-height: 90px;
+  width: auto;
+  height: auto;
+
+}
+.pesquisa{
+  max-width: 30px;
+  max-height: 30px;
+  height: 100%;
+  width: 100%;
   
-    }
-    body {
-
-      margin: 0 auto;
-      padding: 0;
-      box-sizing: border-box;
+}
 
 
 
-    }
 
-    
+
+
+
+  
+
+
