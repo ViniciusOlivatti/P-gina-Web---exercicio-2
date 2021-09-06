@@ -6,6 +6,8 @@
   outline: none;
   box-sizing: border-box;
   
+  
+  
 }
 
 body{
@@ -108,9 +110,8 @@ ul li a:hover{
   
 }
 
-main{
-  background-image: linear-gradient(to top, #B5DFF5, #ffffff);
-}
+
+
  
 .principaloqe {
     background-color: #57758D;
@@ -280,7 +281,7 @@ left: 890px;
 .link2{
   
   color: white;
-  position: relative;
+  position:relative;
   top: 200px;
   background-image: url(./acordo-de-negocios-e-conceito-de-negociacao-bem-sucedida-empresario-em-terno-apertar-a-mao-com-o-cliente_28629-1159.jpg);
   background-size: cover;
@@ -300,8 +301,34 @@ left: 890px;
   transition: 1s;
 }
 
+#rodape{
+  
+  position: relative;
+  top: 200px;
+  background-color: #2a343c;
+  
+  
+}
 
+.inicio1{
+  display:table-caption;
+  
+  
+}
 
+.inicio1, .unit{
+  padding-left: 40px;
+  padding-top: 20px ;
+}
+ .rod1{
+   padding-left: 280px;
+   padding-bottom: 300px;
+   
+ }
 
-
-
+ .unit{
+  width: 1px;
+  height: 1px;
+  
+  
+ }
