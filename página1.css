@@ -25,6 +25,7 @@ body{
   background-attachment: fixed;
   opacity: 0.9;
   
+  
 }
 
 #cabecalho_escolhas {
@@ -42,6 +43,9 @@ a{
   transition: 1s;
   
 }
+
+
+
 
 .logo{
   position: absolute;
@@ -97,6 +101,7 @@ ul li a:hover{
   position: absolute;
   top: 23%;
   left: 32%;
+  
 }
 
 .bk{
@@ -330,5 +335,14 @@ left: 890px;
   width: 1px;
   height: 1px;
   
+ }
+
+ .rod1{
+   font-size: 10px;
+  font-family:'Source Sans Pro', sans-serif ;
   
+ }
+
+.sobre1{
+   display: table-caption;
  }
