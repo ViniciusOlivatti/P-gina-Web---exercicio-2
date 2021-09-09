@@ -8,7 +8,7 @@
 }
 
 body {
-    overflow: hidden;
+    overflow-x: hidden;
     background-color:rgba(29, 47, 118) ;
     
    
@@ -113,6 +113,7 @@ a{
     color: white;
     padding: 1px 500px 4px 4px;
     margin: 150px;
+    
 }
 
     
