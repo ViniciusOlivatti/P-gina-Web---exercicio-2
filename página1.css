@@ -10,16 +10,12 @@ body{
   overflow-x: hidden;
 }
 
-
-
-  
 .box{
   width: 400px;
   display: inline-block;
   margin-left: 40px;
   height: 100px;
 }
-
 
 #cabecalho{
   background-image: url(./acordo-de-negocios-e-conceito-de-negociacao-bem-sucedida-empresario-em-terno-apertar-a-mao-com-o-cliente_28629-1159.jpg);
@@ -42,7 +38,6 @@ a{
   transition: 1s;
 }
 
-
 .bb{
   padding-top: 80px;
 }
@@ -58,9 +53,8 @@ a{
   height: auto;
  -webkit-filter: drop-shadow(5px 5px 5px rgb(4, 4, 4));
   filter: drop-shadow(5px 5px 5px rgb(0, 0, 0));
-  
-
 }
+
 .pesquisa{
   position: absolute;
   top: 24px;
@@ -71,10 +65,7 @@ a{
   width: 100%;
 }
 
-
-
-
-ul li{
+#cabecalho_escolhas li{
   display: inline-block;
   padding: 20px 35px;
   font-size: 18px;
@@ -84,7 +75,6 @@ ul li{
 ul li a:hover{
   color: rgba(23, 57, 121, 0.905);
 }
-
 
 .bv{
   text-shadow: 10px 5px 9px rgba(0, 0, 1, 0.837);
@@ -127,7 +117,6 @@ ul li a:hover{
   margin-top: 20px;
 }
 
- 
 .principaloqe {
     background-color: #57758D;
 }
@@ -192,8 +181,6 @@ p{
  transition: all 0.3s
 }
 
-
-
 .indicadores {
     margin: 25px 5px 5px 100px;
     font-family:  'Raleway', sans-serif;
@@ -228,8 +215,6 @@ font-family:'Raleway', sans-serif ;
 color: black;
 }
 
-
-
 .link2{
   color: white;
   background-image: url(./acordo-de-negocios-e-conceito-de-negociacao-bem-sucedida-empresario-em-terno-apertar-a-mao-com-o-cliente_28629-1159.jpg);
@@ -243,7 +228,6 @@ color: black;
   text-shadow: 6px 6px 10px rgba(0, 0, 0, 0.898);
 }
 
-
 .link2 a:hover{
   color: rgba(23, 57, 121, 0.905);
   transition: 1s;
@@ -253,7 +237,6 @@ color: black;
   background-color: #2a343c;
 }
   
-
  .rod1{
   font-size: 15px;
   font-family:'Source Sans Pro', sans-serif ;
