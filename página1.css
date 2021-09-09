@@ -11,9 +11,12 @@
 }
 
 body{
-  height: 100vh;
   
+    overflow-x: hidden;
+    overflow-y: scroll;
 }
+  
+
 
 
 
@@ -25,7 +28,7 @@ body{
   background-position: center;
   background-attachment: fixed;
   opacity: 0.9;
-  height: 100vh;
+  
   
   
 }
@@ -34,9 +37,11 @@ body{
   background-color: rgba(15, 15, 72, 0.261);
   font-family:  'Source Sans Pro', sans-serif;
   padding: 5px 200px;
-  width: 100%;
+  
   height: 500px; 
   }
+
+  
 
 
 a{
@@ -46,12 +51,14 @@ a{
 }
 
 
-
+.bb{
+  padding-top: 80px;
+}
 
 .logo{
-  position: absolute;
-  top: 6%; 
-  left: 10%;
+ position: absolute;
+ top: 35px;
+ left: 100px ;
   transform: translate(-50%, -50%); 
   max-width: 100px;
   max-height: 100px;
@@ -63,14 +70,13 @@ a{
 
 }
 .pesquisa{
-  
+  position: absolute;
+  top: 24px;
+  left: 1200px ;
   max-width: 30px;
   max-height: 30px;
   height: 100%;
   width: 100%;
-  position: absolute;
-  top: 3.3%;
-  left: 90%;
   
   
 }
@@ -99,10 +105,7 @@ ul li a:hover{
   font-size: 45px;
   color: white;
   text-align: center;
-  position: absolute;
-  top: 23%;
-  left: 32%;
-  
+ 
 }
 
 .bk{
@@ -110,9 +113,7 @@ ul li a:hover{
   font-size: 30px;
   color: white;
   text-align: center;
-  position:absolute;
-  top: 34%;
-  left: 18% ;
+  
   
 }
 
@@ -161,17 +162,12 @@ p{
 .vantagem2{
   height: 350px;
   width: 270px;
-  position: absolute;
-  top: 805px ;
-  left: 541px ;
+  
   
 }
 .vantagem3{
   height: 350px;
   width: 270px;
-  position: absolute;
-  top: 805px;
-  left: 931px;
 }
 
 .zoom{
@@ -234,9 +230,7 @@ p{
 }
 
 .indicadores1{
-  position: absolute;
-  top: 1260px;
-  left: 110px;
+ 
   font-family:  'Raleway', sans-serif;
   color: black;
  font-size: 14px;
@@ -245,18 +239,15 @@ p{
 
 .indi3{
   
-  margin: 1px 5px 5px 587px ;
-  position: absolute;
-  top: 1214px;
+ 
+  
   font-family:  'Raleway', sans-serif;
   color: #000000
 }
 
 .indic3{
   
-  position: absolute;
-  top: 1260px;
-  left: 470px ;
+ 
   font-family:  'Raleway', sans-serif;
   font-size: 14px;
   color: #000000
@@ -265,9 +256,7 @@ p{
 }
 
 .seg1{
-position: absolute;
-top: 1215px;
-left: 914px ;
+
 font-family:  'Raleway', sans-serif;
 color: black;
 }
@@ -276,9 +265,6 @@ color: black;
 font-size: 14px ;
 font-family:'Raleway', sans-serif ;
 color: black;
-position: absolute;
-top: 1260px;
-left: 890px;
 
 }
 
@@ -287,8 +273,8 @@ left: 890px;
 .link2{
   
   color: white;
-  position:relative;
-  top: 200px;
+  
+  
   background-image: url(./acordo-de-negocios-e-conceito-de-negociacao-bem-sucedida-empresario-em-terno-apertar-a-mao-com-o-cliente_28629-1159.jpg);
   background-size: cover;
   padding: 90px;
@@ -309,8 +295,8 @@ left: 890px;
 
 #rodape{
   
-  position: relative;
-  top: 200px;
+ 
+  
   background-color: #2a343c;
   
   
